@@ -1,0 +1,37 @@
+Los assets son todos los recursos estáticos que utilizaremos en nuestro proyecto, tales como:
+
+Imágenes
+Logotipos/Isotipos (Si el logotipo y el nombre de la empresa/marca se encuentran en elementos separados, es preferible descargarlos agrupados)
+Íconos
+PRO TIP: podemos descargar varios assets simultáneamente. Solo debemos seleccionar varios elementos, presionando CTRL + Clic sobre el elemento, y luego presionamos Export seleccionamos el formato, ¡y Listo! nuestros assets se descargaran en un archivo .zip
+
+Clasificamos los assets según el tipo de recurso (imagen, ícono, etc…), además es recomendble que sigamos un estándar para nombrar nuestros archivos (nombre corto, desciptivo, en minúsculas, sin espacios) .
+Finalmente la estructura de carpetas de nuestro proyecto debería quedar de esta forma:
+
+- assets
+	- icons
+	- img
+		bitcon.svg
+		logo.svg
+	index.html
+
+BEM
+	https://en.bem.info/methodology/quick-start/
+	https://9elements.com/bem-cheat-sheet/
+
+	***Estilos de seccion beneficios
+	*cuandop utilicemos position absolute tenemos que fijarnos que 
+	su contenedor padre este en relative porque siempre es lo que va a buscar 
+	ya que el delimita hasta donde se va a poder mover
+
+	overflow-x
+
+La propiedad de CSS overflow-x establece lo que se muestra cuando el contenido desborda los bordes izquierdo y derecho de un elemento a nivel de bloque. Puede que no sea nada, una barra de desplazamiento o el contenido adicional.
+
+overscroll-behavior
+
+la propiedad de css overscroll-behabior establece lo que hace un navegador cuando alcanza el límite de un área de desplazamiento. Es una abreviatura de overscroll-behavior-x y overscroll-behavior-y.
+
+scroll-snap-type
+
+La propiedad CSS scroll-snap-type establece qué tan estrictamente se aplican los puntos de snap en el contenedor de desplazamiento en caso de que haya uno
